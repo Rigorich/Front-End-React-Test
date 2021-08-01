@@ -1,0 +1,45 @@
+.Pagination {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    min-width: 300px;
+    height: 10%;
+    margin-right: 10%;
+}
+
+.DefaultButton {
+    _background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.PageButton {
+}
+
+.CurrentPageButton {
+    background-color: #1964FF;
+    color: white;
+}
+
+.ArrowButton {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ArrowButtonDisabled {
+    background-color: transparent;
+    opacity: 0.4;
+    cursor: default;
+}
+
+.DotsButton {
+    background-color: transparent;
+    cursor: default;
+}

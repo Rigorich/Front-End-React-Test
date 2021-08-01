@@ -1,0 +1,31 @@
+.RepositoryElement {
+    display: flex;
+    height: 25%;
+}
+
+.RepositoryElementContent {
+    background-color: white;
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
+}
+
+.RepositoryName {
+    height: 40%;
+    text-align: left;
+    font-size: x-large;
+    color: blue;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    overflow: hidden;
+}
+
+.RepositoryDescription {
+    height: 30%;
+    overflow-wrap: anywhere;
+    overflow: hidden;
+}

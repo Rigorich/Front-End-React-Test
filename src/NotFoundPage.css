@@ -1,0 +1,9 @@
+.NotFoundPage {
+    display: flex;
+    flex: 1;
+    background-color: black;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/925960612643321840/D18CD4FC8A345B20B731528AA347C2F1A80DC1AD/");
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: 100% auto;
+}

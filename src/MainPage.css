@@ -1,0 +1,48 @@
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.Header {
+    background-color: #3264FF;
+    min-height: 50px;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.MainLogo {
+    background-image: url(./NewOrder.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    min-height: 42px;
+    height: 6vh;
+    min-width: 60px;
+    width: 10vw;
+}
+
+.SearchUserForm {
+    background-image: url(./logo.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    padding-left: 45px;
+    padding-bottom: 2px;
+    min-height: 30px;
+    height: 4vh;
+    width: 25vw;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.PageContent {
+    display: flex;
+    flex-grow: 1;
+    min-height: 420px;
+}

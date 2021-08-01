@@ -1,0 +1,9 @@
+.InitialPage {
+    display: flex;
+    flex: 1;
+    background-color: #DDDDDD;
+    background-image: url("https://i.pinimg.com/originals/70/f1/92/70f192cdc95e11bcf08297bbe54c6e5c.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+}
